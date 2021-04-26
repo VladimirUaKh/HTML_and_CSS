@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mike Tysons fan zone</title>
+	<link rel="stylesheet" href="home.css">
+	
+</head>
+<body>
+	<h1>Myke Tyson - the greatest boxer of the world</h1>
+	<img src="Myke Tyson.jpg" alt="American boxer">
+	<a href="https://en.wikipedia.org/wiki/Mike_Tyson" target= blank>Wikipedia</a>
+    <h2 id= facts> The main facts of the life:</h2>
+	<div><ul>
+		<li>Michael Gerard Tyson (born June 30, 1966) is an American former professional boxer who competed from 1985 to 2005.</li>
+        <li>Nickname is "Iron Mike"</li>
+        <li>On November 22, 1986, Tyson was given his first title fight against Trevor Berbick for the World Boxing Council (WBC) heavyweight championship. Tyson won the title by TKO in the second round, and at the age of 20 years and 4 months became the youngest heavyweight champion in history.</li>
+        <li>Tyson was known for his ferocious and intimidating boxing style as well as his controversial behavior inside and outside the ring. He holds the sixth longest unified championship reign in heavyweight boxing history at 8 consecutive defenses. BoxRec ranked him as the world's top 10 heavyweight 12 times, and placed him at No.1 from 1986 to 1989.He was ranked 16th on The Ring magazine's list of 100 greatest punchers of all time, and first on ESPN's list of "The Hardest Hitters in Heavyweight History". Sky Sports described him as "perhaps the most ferocious fighter to step into a professional ring". He has been inducted into the International Boxing Hall of Fame and the World Boxing Hall of Fame.
+        </li></div>
+	</ul>
+	    <p class="text-record">Professional boxing record</p>
+
+		<table class="table" border="" width="270" height="270">
+			<tbody>
+			<tr align="center">
+			   <th><span>58 fights</th></span>
+			   <th><span>50 wins</th></span>
+			   <th><span>6 loses</th></span>
+			</tr>
+			<tr align="center">
+				<td> By knockouts</td>
+				<td>44</td>
+				<td>5</td>
+			</tr>
+			<tr align="center">
+			   <td>By decision</td>
+			   <td>5</td>
+			   <td>0</td>
+			</tr>
+			   
+			<tr align="center">
+				<td>By disqualification</td>
+				<td>1</td>
+				<td>1</td>
+			</tr>
+			</tbody>
+		</table>
+
+		<p class="connection">How to connect us</p>
+
+        <form action= "" method="Post">
+
+         <input type="text" name="name" placeholder="Write your name">
+			<input type="text" name="E-mail" placeholder="E-mail">
+		     <textarea name="question" placeholder="Put your question, please"></textarea>
+			<button>Send</button>
+			
+		</form>
+</body>
+</html>
+
+CSS
+
+h1 {
+	font-family: Arial;
+	font-size: 40px;
+	font-weight: 600;
+	text-decoration: underline;
+	font-style: italic;
+	color: rgb(0 0 0);
+	background-color: #c6c4cc;
+	text-align: center;
+	margin: 100px 240px 10px 220px;
+}
+
+img {
+	margin: 10px 0px 10px 530px;
+	border: solid black;
+	border-radius: 15px;
+
+}
+a:hover {
+	color: red;
+}
+#facts {
+	font-family: Arial;
+	font-size: 30px;
+	font-weight: 500;
+	color: black;
+	text-align: center;
+}
+  div {
+	font-family: Times New Roman;
+	font-size: 20px;
+	background: rgb(215 242 179);
+}
+.text-record {
+	font-family: Arial;
+	font-size: 30px;
+	display: inline;
+	text-align: center;
+	background: #c6c4cc;
+	margin: 10px 100px 20px 550px;
+	}
+	.table {
+		font-size: 20px;
+		font-weight: 500;
+        width: 270px;
+		margin: 20px 530px 10px 600px;
+		border: solid black;
+		
+     }
+     span {
+     	font-weight: 800;
+     } 
+
+     
+     .connection {
+     	font-family: Times New Roman;
+     	font-size: 20px;
+     	font-weight: 600;
+     	text-align: center;
+     }
+     input {
+     	display: block;
+     	width: 300px;
+     	margin: 0 auto 0 auto;
+     	font-size: 16px;
+     }
+     textarea {
+     	display: block;
+     	width: 300px;
+     	margin: 0 auto 0 auto;
+     	font-size: 16px;
+     }
+     
+     button {
+     	margin: 0px 300px 10px 893px;
+     	color: black;
+     }
+  button:hover {
+  	color: red;
+  }
+     
+     
